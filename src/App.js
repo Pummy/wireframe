@@ -1,24 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 // import logo from './logo.svg';
 import './App.css';
 // import Navbar from 'react-bootstrap/Navbar'
 import  { Nav,Button,Navbar,Form,Col,Container,Row,Image } from 'react-bootstrap';
 import AppRoutes from './AppRoutes';
 import { withRouter } from 'react-router-dom';
-import Hero from './pages/Hero';
-import Subhero from './pages/Subhero';
-import Signup from './pages/Signup';
 import './assets/style.css';
-class App extends React.Component {
-// function App() {
-  render() {
-    // if(this.props.history.location.pathname==='/signup'){
-    //   return null;
-    // } 
+function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
       {/* <AppRoutes/> */}
       {/* <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">Photo</Navbar.Brand>
@@ -705,40 +695,10 @@ class App extends React.Component {
         </section>
         
       </Container>
-=======
-  
-<Router>
-     <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home">Photo</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href={'/signup'}>Features</Nav.Link>
-      <Nav.Link href={'/hero'}>Pricing</Nav.Link>
-      <Nav.Link href={'/subhero'}>Community</Nav.Link>
-      <Nav.Link href={'/subhero'}>Support</Nav.Link>
-    </Nav>
-   
-    <Nav>
-    <Button variant="outline-primary">Login</Button>
-    <Button variant="primary">Register</Button>
-    </Nav>
-    </Navbar.Collapse>
-  </Navbar>
-
-<Switch>
-<Route exact path='/' component={Hero} />
-      <Route  path='/signup' component={Signup} />
-      <Route path='/hero' component={Hero} />
-      <Route path='/subhero' component={Subhero} />
-</Switch>
-</Router>
->>>>>>> 5e1a249e8d513f04578326d8e28f86f901ed49ae
 
     </div>
 
   );
-  }
 }
 
 export default  App;
