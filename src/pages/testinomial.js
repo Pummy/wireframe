@@ -1,11 +1,11 @@
 import React from 'react';
 // import logo from './logo.svg';
-import './App.css';
+import '../App.css';
 // import Navbar from 'react-bootstrap/Navbar'
 import  { Nav,Button,Navbar,Form,Col,Container,Row,Image } from 'react-bootstrap';
 import AppRoutes from './AppRoutes';
 import { withRouter } from 'react-router-dom';
-import './assets/style.css';
+import '../assets/style.css';
 function App() {
   return (
     <div className="App">
