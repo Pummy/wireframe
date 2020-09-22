@@ -1,12 +1,12 @@
 import React from 'react';
 // import logo from './logo.svg';
-import '../App.css';
+import './App.css';
 // import Navbar from 'react-bootstrap/Navbar'
 import  { Nav,Button,Navbar,Form,Col,Container,Row,Image } from 'react-bootstrap';
 import AppRoutes from './AppRoutes';
 import { withRouter } from 'react-router-dom';
-import '../assets/style.css';
-function Testinomial() {
+import './assets/style.css';
+function BodyLayout() {
   return (
     <div className="App">
       {/* <AppRoutes/> */}
@@ -701,4 +701,4 @@ function Testinomial() {
   );
 }
 
-export default  Testinomial;
+export default  BodyLayout;
