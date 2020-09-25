@@ -6,7 +6,7 @@ import  { Nav,Button,Navbar,Form,Col,Container,Row,Image } from 'react-bootstrap
 import AppRoutes from './AppRoutes';
 import { withRouter } from 'react-router-dom';
 import './assets/css/testinomial.css';
-function Testinomial() {
+function Footer() {
   return (
     <div className="App">
       {/* <AppRoutes/> */}
@@ -360,4 +360,4 @@ function Testinomial() {
   );
 }
 
-export default Testinomial;
+export default Footer;

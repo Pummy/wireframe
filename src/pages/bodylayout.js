@@ -5,7 +5,7 @@ import './App.css';
 import  { Nav,Button,Navbar,Form,Col,Container,Row,Image } from 'react-bootstrap';
 import AppRoutes from './AppRoutes';
 import { withRouter } from 'react-router-dom';
-import './assets/style.css';
+import '../assets/css/bodylayout.css';
 function BodyLayout() {
   return (
     <div className="App">
