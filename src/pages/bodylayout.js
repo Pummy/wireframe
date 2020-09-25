@@ -1,35 +1,19 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
+
 // import Navbar from 'react-bootstrap/Navbar'
 import  { Nav,Button,Navbar,Form,Col,Container,Row,Image } from 'react-bootstrap';
-import AppRoutes from './AppRoutes';
-import { withRouter } from 'react-router-dom';
 import '../assets/css/bodylayout.css';
+// <<<<<<< HEAD
+// import AppRoutes from './AppRoutes';
+// import { withRouter } from 'react-router-dom';
+// import '../assets/css/bodylayout.css';
+// =======
+
+// import '../assets/style.css';
+// >>>>>>> ebdc5e08121f773fb2acb71968ded22b4840b9fc
 function BodyLayout() {
   return (
     <div className="App">
-      {/* <AppRoutes/> */}
-      {/* <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Photo</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Features</Nav.Link>
-            <Nav.Link href="#link">Pricing</Nav.Link>
-            <Nav.Link href="#link">Community</Nav.Link>
-            <Nav.Link href="/Signup">Support</Nav.Link>
-          
-          </Nav>
-          <Nav>
-          <Button variant="outline-primary">Login</Button>
-          <Button variant="primary">Register</Button>
-          </Nav>
-          
-            
-          
-        </Navbar.Collapse>
-      </Navbar> */}
 
       <Container className="full_page_bck">
         <section className="wrapper">
@@ -238,12 +222,12 @@ function BodyLayout() {
                   <Row className='super_col_1'>
                     <Col xs={12} md={6}>
                       <div>
-                        <img src={require("./assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
+                        <img src={require("../assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
                       </div>
                     </Col>
                     <Col xs={12} md={6}>
                       <div>
-                        <img src={require("./assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
+                        <img src={require("../assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
                       </div>
                     </Col>
                   </Row>
@@ -283,7 +267,7 @@ function BodyLayout() {
                   <Row className='super_col_1'>
                     <Col xs={12} md={6}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="280" width="430" style={{marginBottom:"30px"}}/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="280" width="430" style={{marginBottom:"30px"}}/>
                       </div>
                     </Col>
                     <Col xs={12} md={6} style={{marginTop:"40px"}}>
@@ -317,7 +301,7 @@ function BodyLayout() {
                     </Col>
                     <Col xs={12} md={6}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="280" width="430" style={{marginBottom:"30px"}}/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="280" width="430" style={{marginBottom:"30px"}}/>
                       </div>
                     </Col>
                   </Row>
@@ -332,7 +316,7 @@ function BodyLayout() {
           <Row className="wrapper_bg">
             <Col xs={12} md={6}>
               <div className="rectanglefullv">
-                <img src={require("./assets/images/Rectangle.png")} alt="logo" height="100%" width="100%" />
+                <img src={require("../assets/images/Rectangle.png")} alt="logo" height="100%" width="100%" />
               </div>
             </Col>
             <Col xs={12} md={6}>
@@ -358,7 +342,7 @@ function BodyLayout() {
           <Row className="wrapper_bg">
             <Col xs={12} md={6}>
               <div className="rectanglefullv">
-                <img src={require("./assets/images/Rectangle.png")} alt="logo" height="100%" width="100%" />
+                <img src={require("../assets/images/Rectangle.png")} alt="logo" height="100%" width="100%" />
               </div>
             </Col>
             <Col xs={12} md={6}>
@@ -374,13 +358,13 @@ function BodyLayout() {
               <Row>
                   <Col xs={12} md={2} className="ellip_sed">
                     <Row>
-                      <img src={require("./assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
+                      <img src={require("../assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
                     </Row>
                     <Row>
-                      <img src={require("./assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
+                      <img src={require("../assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
                     </Row>
                     <Row>
-                      <img src={require("./assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
+                      <img src={require("../assets/images/Ellipse.png")} alt="logo" height="20%" width="auto"/>
                     </Row>
                     
                   </Col>
@@ -438,17 +422,17 @@ function BodyLayout() {
                   <Row className='super_col_1'>
                     <Col xs={12} md={4}>
                       <div>
-                        <img src={require("./assets/images/Ellipse.png")} alt="logo" height="100" width="auto"/>
+                        <img src={require("../assets/images/Ellipse.png")} alt="logo" height="100" width="auto"/>
                       </div>
                     </Col>
                     <Col xs={12} md={4}>
                       <div>
-                        <img src={require("./assets/images/Ellipse.png")} alt="logo" height="100" width="auto"/>
+                        <img src={require("../assets/images/Ellipse.png")} alt="logo" height="100" width="auto"/>
                       </div>
                     </Col>
                     <Col xs={12} md={4}>
                       <div>
-                        <img src={require("./assets/images/Ellipse.png")} alt="logo" height="100" width="auto"/>
+                        <img src={require("../assets/images/Ellipse.png")} alt="logo" height="100" width="auto"/>
                       </div>
                     </Col>
                   </Row>
@@ -528,7 +512,7 @@ function BodyLayout() {
                     </Col>
                     <Col xs={12} md={6}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="600" width="530" style={{marginBottom:"30px"}}/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="600" width="530" style={{marginBottom:"30px"}}/>
                       </div>
                     </Col>
                   </Row>
@@ -572,12 +556,12 @@ function BodyLayout() {
                   <Row className='super_col_1'>
                     <Col xs={12} md={6}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="300" width="430"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="300" width="430"/>
                       </div>
                     </Col>
                     <Col xs={12} md={6}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="300" width="430"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="300" width="430"/>
                       </div>
                     </Col>
                   </Row>
@@ -643,17 +627,17 @@ function BodyLayout() {
                   <Row className='super_col_1'>
                     <Col xs={12} md={4}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="200" width="278"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="200" width="278"/>
                       </div>
                     </Col>
                     <Col xs={12} md={4}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="200" width="278"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="200" width="278"/>
                       </div>
                     </Col>
                     <Col xs={12} md={4}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="200" width="278"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="200" width="278"/>
                       </div>
                     </Col>
                   </Row>

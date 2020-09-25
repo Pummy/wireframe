@@ -144,3 +144,16 @@ body {
     width: 320px;
     height: 352px;
 }
+.rectanglefullhw{
+    height: 203px;
+    width: 1111px;
+    margin-left: -135px;
+    margin-bottom: -30px;
+}
+.rectanglefullh{
+    height: 203px;
+    width: 1111px;
+    margin-left: -31px;
+    margin-bottom: -30px;
+    margin-top: -15px;
+}

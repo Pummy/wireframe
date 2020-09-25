@@ -3,9 +3,9 @@ import React from 'react';
 import '../App.css';
 // import Navbar from 'react-bootstrap/Navbar'
 import  { Nav,Button,Navbar,Form,Col,Container,Row,Image } from 'react-bootstrap';
-import AppRoutes from './AppRoutes';
+// import AppRoutes from './AppRoutes';
 import { withRouter } from 'react-router-dom';
-import './assets/css/testinomial.css';
+import '../assets/css/testinomial.css';
 function Testinomial() {
   return (
     <div className="App">
@@ -57,32 +57,32 @@ function Testinomial() {
                   <Row className='super_col_1 martopbox'>
                     <Col xs={4} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={4} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={4} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={4} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={4} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={4} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                   </Row>
@@ -114,32 +114,32 @@ function Testinomial() {
                       <Row className='super_col_1 martopbox'>
                         <Col xs={6} md={4}>
                           <div>
-                            <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                            <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                           </div>
                         </Col>
                         <Col xs={6} md={4}>
                           <div>
-                            <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                            <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                           </div>
                         </Col>
                         <Col xs={6} md={4}>
                           <div>
-                            <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                            <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                           </div>
                         </Col>
                         <Col xs={6} md={4}>
                           <div>
-                            <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                            <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                           </div>
                         </Col>
                         <Col xs={6} md={4}>
                           <div>
-                            <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                            <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                           </div>
                         </Col>
                         <Col xs={6} md={4}>
                           <div>
-                            <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                            <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                           </div>
                         </Col>
                       </Row>
@@ -153,7 +153,7 @@ function Testinomial() {
                       <Row className='super_col_1'>
                         <Col xs={12} md={12}>
                           <div>
-                            <img src={require("./assets/images/Rectangle.png")} alt="logo" height="300" width="100%"/>
+                            <img src={require("../assets/images/Rectangle.png")} alt="logo" height="300" width="100%"/>
                           </div>
                         </Col>
                       </Row>
@@ -204,7 +204,7 @@ function Testinomial() {
                     </Col>
                     <Col xs={4} md={4}>
                       <div>
-                        <img src={require("./assets/images/Ellipse.png")} alt="logo" height="40" width="40"/>
+                        <img src={require("../assets/images/Ellipse.png")} alt="logo" height="40" width="40"/>
                       </div>
                     </Col>
                     <Col xs={4} md={4}>
@@ -254,22 +254,22 @@ function Testinomial() {
                     </Col>
                     <Col xs={6} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={6} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={6} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={6} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col md={2}>
@@ -281,22 +281,22 @@ function Testinomial() {
                     </Col>
                     <Col xs={6} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={6} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={6} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col xs={6} md={2}>
                       <div>
-                        <img src={require("./assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
+                        <img src={require("../assets/images/Rectangle.png")} alt="logo" height="70" width="100%"/>
                       </div>
                     </Col>
                     <Col md={2}>
@@ -328,7 +328,7 @@ function Testinomial() {
                       <Row className='martopbox'>
                         <Col xs={4} md={2}>
                           <div>
-                            <img src={require("./assets/images/Ellipse.png")} alt="logo" height="40" width="40"/>
+                            <img src={require("../assets/images/Ellipse.png")} alt="logo" height="40" width="40"/>
                           </div>
                         </Col>
                         <Col xs={8} md={10}>
@@ -343,7 +343,7 @@ function Testinomial() {
 
                 <Col xs={12} md={5}>
                   <div>
-                    <img src={require("./assets/images/Rectangle.png")} alt="logo" height="300" width="100%"/>
+                    <img src={require("../assets/images/Rectangle.png")} alt="logo" height="300" width="100%"/>
                   </div>
                 
                 </Col>
