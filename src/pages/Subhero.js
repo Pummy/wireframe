@@ -71,7 +71,7 @@ function Subhero() {
                 <Row className='super_col_1'>
                   <Col xs={12} md={6}>
                     <div>
-                      <img src={require("../assets/images/Rectangle.png")} alt="logo" height="280" width="100%" style={{marginBottom:"30px"}}/>
+                      <img src={require("../assets/images/Rectangle.png")} alt="logo" height="380" width="100%" style={{marginBottom:"30px"}}/>
                     </div>
                   </Col>
                   <Col xs={12} md={6} style={{marginTop:"80px"}}>

@@ -2,7 +2,14 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/Montserrat-Regular.ttf'); /* IE9 Compat Modes */
+    src: url('./fonts/Montserrat/Montserrat-Regular.ttf'); /* IE9 Compat Modes */
+    /* type: 'Futura','Trebuchet MS',Arial,sans-serif;  */
+}
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Comfortaa/static/Comfortaa-Regular.ttf'); /* IE9 Compat Modes */
     /* type: 'Futura','Trebuchet MS',Arial,sans-serif;  */
 }
 body {

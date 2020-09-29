@@ -362,6 +362,7 @@ import Subhero from './pages/Subhero';
 import Signup from './pages/Signup';
 import BodyLayout from './pages/bodylayout';
 import Testinomial from './pages/testinomial';
+import Footer from './pages/footer';
 import './assets/style.css';
 class App extends React.Component {
 // function App() {
@@ -372,35 +373,37 @@ class App extends React.Component {
   return (
     <div className="App">
   
-<Router>
-     <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home">Photo</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href={'/signup'}>Features</Nav.Link>
-      <Nav.Link href={'/hero'}>Pricing</Nav.Link>
-      <Nav.Link href={'/bodylayout'}>Community</Nav.Link>
-      <Nav.Link href={'/subhero'}>Support</Nav.Link>
-      <Nav.Link href={'/testinomial'}>Testinomial</Nav.Link>
-    </Nav>
-   
-    <Nav>
-    <Button variant="outline-primary">Login</Button>
-    <Button variant="primary">Register</Button>
-    </Nav>
-    </Navbar.Collapse>
-  </Navbar>
+      <Router>
+        <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home">Photo</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href={'/signup'}>Features</Nav.Link>
+              <Nav.Link href={'/hero'}>Pricing</Nav.Link>
+              <Nav.Link href={'/bodylayout'}>Community</Nav.Link>
+              <Nav.Link href={'/subhero'}>Support</Nav.Link>
+              <Nav.Link href={'/testinomial'}>Testinomial</Nav.Link>
+              <Nav.Link href={'/footer'}>Footer</Nav.Link>
+            </Nav>
+          
+            <Nav>
+              <Button variant="outline-primary">Login</Button>
+              <Button variant="primary">Register</Button>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
 
-<Switch>
-<Route exact path='/' component={Signup} />
-      <Route  path='/signup' component={Signup} />
-      <Route path='/hero' component={Hero} />
-      <Route path='/subhero' component={Subhero} />
-      <Route path='/bodylayout' component={BodyLayout}/>
-      <Route path='/testinomial' component={Testinomial}/>
-</Switch>
-</Router>
+        <Switch>
+          <Route exact path='/' component={Signup} />
+          <Route  path='/signup' component={Signup} />
+          <Route path='/hero' component={Hero} />
+          <Route path='/subhero' component={Subhero} />
+          <Route path='/bodylayout' component={BodyLayout}/>
+          <Route path='/testinomial' component={Testinomial}/>
+          <Route path='/footer' component={Footer}/>
+        </Switch>
+      </Router>
 
     </div>
 
