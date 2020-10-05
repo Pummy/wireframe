@@ -128,7 +128,7 @@ function Subhero() {
 
     </Container>
 
-    );
-  }
+  );
+}
   
   export default  Subhero;

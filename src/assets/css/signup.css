@@ -1,0 +1,30 @@
+.sign_s2_learn_more button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    background: #18A0FB;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+.sign_s3_learn_more_b button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    background: #FFFFFF;
+    border: 1px solid #18A0FB;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #18A0FB;
+}
+.sign_s3_learn_more_b{
+    margin: 0 0 0 30px;
+}
